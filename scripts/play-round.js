@@ -15,6 +15,9 @@ function playRound(playerSelection, computerSelection) {
     //Create string variable to store result of round
     let result;
 
+    //Properly format the player's selection
+    playerSelection = playerSelection[0].toUpperCase() + playerSelection.slice(1, playerSelection.length).toLowerCase();
+
     //Determine winner based on player's selection
     switch (playerSelection) {
         case "Rock":
