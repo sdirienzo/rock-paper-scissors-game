@@ -1,4 +1,4 @@
-function playRound(playerSelection, computerSelection) {
+export function playRound(playerSelection, computerSelection) {
     //Create string constants for player round results
     const PLAYER_WIN_MESSAGE = "You Win!";
     const PLAYER_LOSE_MESSAGE = "You Lose!";
